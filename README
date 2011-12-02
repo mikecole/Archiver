@@ -1,1 +1,11 @@
 A handy little app to compress and store away files you're not so sure you're ready to delete. Includes a rolling delete functionality.
+
+To install:
+1) Build project.
+2) Copy contents of BIN to folder on your system.
+4) Set "ArchiveLocation" and "DeleteAfterDays" in App.Config.
+5) Create a Shortcut to Archiver.exe in "%APPDATA%\Microsoft\Windows\SendTo" on Windows 7.
+
+To use, right click on file and chose Archiver option in Send To.
+
+This works on files and folders, and will work when you select multiple at once.
