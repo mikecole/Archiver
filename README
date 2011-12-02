@@ -9,3 +9,5 @@ To install:
 To use, right click on file and chose Archiver option in Send To.
 
 This works on files and folders, and will work when you select multiple at once.
+
+NOTE: This will not actually delete the original content after archiving. I saved that little bit of joy for you.
