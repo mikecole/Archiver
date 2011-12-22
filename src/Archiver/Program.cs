@@ -24,13 +24,13 @@ namespace Archiver
                         Archive(path);
                     }
 
-                    if (DeleteAfterDays.HasValue)
+                    if (DeleteAfterDays.HasValue && DeleteAfterDays.Value >= 0)
                     {
                         PurgeOldItems();
                     }
 
-                    Console.WriteLine("Archive complete! Press any key to continue...");
                     Console.WriteLine(String.Format("Archiver Version: {0}", Application.ProductVersion));
+                    Console.WriteLine("Archive complete! Press any key to continue...");
                     Console.ReadKey();
                 }
                 else
